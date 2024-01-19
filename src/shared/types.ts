@@ -10,3 +10,8 @@ export interface BenefitType {
   title: string;
   description: string
 }
+export interface ClassType {
+  name: string;
+  description?: string; // you add a question mark to make it optional
+  image: string
+}
