@@ -25,7 +25,7 @@ const Navbar = ({ setSelectedPage, selectedPage, isTopOfPage }: Props) => {
   return (
     <nav>
       <div
-        className={`${navbarBG} ${flexBetween} fixed top-0 z-30 w-full py-6`}
+        className={`${navbarBG} ${flexBetween} fixed top-0 z-[999] w-full py-6`}
       >
         <div
           className={`${flexBetween} mx-auto w-5/6`}
