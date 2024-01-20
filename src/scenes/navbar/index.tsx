@@ -1,10 +1,10 @@
 import { useState } from "react"
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/16/solid"
-import Logo from "@/assets/Logo.png"
 import Link from "./Link"
 import { SelectedPage } from "@/shared/types"
 import useMediaQuery from "@/hooks/useMediaQuery"
 import { ActionButton } from "@/shared/ActionButton"
+import Text from "@/shared/Text"
 
 
 type Props = {
@@ -34,7 +34,8 @@ const Navbar = ({ setSelectedPage, selectedPage, isTopOfPage }: Props) => {
             className={`${flexBetween} w-full gap-20`}
           >
             {/* LEFT SIDE */}
-            <img src={Logo} alt="Logo" />
+            {/* <img src={Logo} alt="Logo" /> */}
+            <Text >BodyFix</Text>
 
             {/* RIGHT SIDE */}
             {isAboveMediumScreens ? (
