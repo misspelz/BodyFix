@@ -12,32 +12,32 @@ import Class from './Class';
 const classes: Array<ClassType> = [
   {
     name: "Weight Training Classes",
-    description: " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, commodi amet consectetur adipisicing elit. Nihil, commodi amet consectetur adipisicing elit.",
+    description: "Sculpt your body and build strength with our weight training classes, perfect for both beginners and advanced lifters",
     image: image1,
   },
   {
     name: "Yoga Classes",
-    // description: " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, commodi amet consectetur adipisicing elit. Nihil, commodi amet consectetur adipisicing elit.",
+    // description: "Find inner peace and balance with our yoga classes, designed to improve flexibility, posture, and mental well-being",
     image: image2,
   },
   {
     name: "Ab Core Training Classes",
-    description: " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, commodi amet consectetur adipisicing elit. Nihil, commodi amet consectetur adipisicing elit.",
+    description: " Tone and define your core with our specialized classes, targeting those hard-to-reach areas for a sculpted midsection",
     image: image3,
   },
   {
     name: "Adventure Classes",
-    description: " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, commodi amet consectetur adipisicing elit. Nihil, commodi amet consectetur adipisicing elit.",
+    description: " Take your fitness journey to the next level with our adventurous classes, incorporating outdoor activities and challenges",
     image: image4,
   },
   {
     name: "Fitness Classes",
-    // description: " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, commodi amet consectetur adipisicing elit. Nihil, commodi amet consectetur adipisicing elit.",
+    // description: " Get your heart pumping and burn calories with our dynamic fitness classes, suitable for all fitness levels.",
     image: image5,
   },
   {
     name: "Training Classes",
-    description: " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, commodi amet consectetur adipisicing elit. Nihil, commodi amet consectetur adipisicing elit.",
+    description: " Receive personalized attention and guidance from our certified trainers in our training classes, designed to help you reach your fitness goals",
     image: image6,
   },
 ]
@@ -68,7 +68,7 @@ const OurClasses = ({ setSelectedPage }: Props) => {
             <Header>
               OUR CLASSES
             </Header>
-            <p className='py-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ipsum enim sint quasi impedit, rem vitae debitis harum fuga saepe.</p>
+            <p className='py-5'>From high-intensity interval training (HIIT) to yoga, spinning, Zumba, and strength training, we have something for everyone.</p>
           </div>
         </motion.div>
         <div className='mt-4 md:mt-10 h-[353px] w-full overflow-x-auto overflow-y-hidden'>

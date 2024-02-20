@@ -25,7 +25,7 @@ const Navbar = ({ setSelectedPage, selectedPage, isTopOfPage }: Props) => {
   return (
     <nav>
       <div
-        className={`${navbarBG} ${flexBetween} fixed top-0 z-[999] w-full py-6`}
+        className={`${navbarBG} ${flexBetween} fixed z-[99] top-0 w-full py-6`}
       >
         <div
           className={`${flexBetween} mx-auto w-5/6`}
@@ -34,7 +34,6 @@ const Navbar = ({ setSelectedPage, selectedPage, isTopOfPage }: Props) => {
             className={`${flexBetween} w-full gap-20`}
           >
             {/* LEFT SIDE */}
-            {/* <img src={Logo} alt="Logo" /> */}
             <Text >BodyFix</Text>
 
             {/* RIGHT SIDE */}
@@ -72,7 +71,7 @@ const Navbar = ({ setSelectedPage, selectedPage, isTopOfPage }: Props) => {
 
       {/* MOBILE MENU MODAL */}
       {!isAboveMediumScreens && isMenuToggled && (
-        <div className="fixed right-0 bottom-0 z-40 h-full w-[300px] bg-primary-100 drop-shadow-xl">
+        <div className="fixed right-0 bottom-0 h-full w-[300px] bg-primary-100 drop-shadow-xl z-[99]">
           {/* CLOSE ICON */}
           <div className="flex justify-end p-12">
             <button

@@ -11,17 +11,17 @@ const benefits: Array<BenefitType> = [
   {
     icon: <HomeModernIcon className="h-6 w-6" />,
     title: "State of the Art Facilities",
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. ipsum dolor sit amet"
+    description: " We are committed to providing our members with a world-class fitness experience, and our state-of-the-art facilities reflect that dedication."
   },
   {
     icon: <UserGroupIcon className="h-6 w-6" />,
     title: "100's of Diverse Classes",
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. ipsum dolor sit amet"
+    description: "Whether you're an early riser or a night owl or a yoga enthusiast, we have over 100 diverse classes to accommodate your schedule and fitness goals."
   },
   {
     icon: <AcademicCapIcon className="h-6 w-6" />,
     title: "Expert and Pro Trainers",
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. ipsum dolor sit amet"
+    description: " Each of our trainers is not only certified and experienced but also deeply passionate about helping you achieve your fitness goals. "
   },
 ]
 
@@ -121,8 +121,8 @@ const Benefits = ({ setSelectedPage }: Props) => {
                  visible: { opacity: 1, x: 0 }
                }}
             >
-              <p className="my-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa praesentium doloribus molestias quos saepe? Deleniti quas commodi sequi incidunt eaque! dolor sit amet consectetur adipisicing elit.</p>
-              <p className="mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur cumque suscipit quam veniam magni vero inventore voluptatum nam debitis illum?</p>
+              <p className="my-5">Our mission is to help you achieve your fitness goals, and we're proud to say that our members' success stories are what drive us every day.</p>
+              <p className="mb-5">Whether you're looking to lose weight, gain muscle, improve flexibility, or simply live a healthier life, our supportive and motivating environment will keep you on track.</p>
             </motion.div>
 
             {/* BUTTON */}

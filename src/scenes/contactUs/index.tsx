@@ -37,11 +37,14 @@ const ContactUs = ({ setSelectedPage }: Props) => {
           }}
         >
           <Header>
-            <span className="text-primary-500">JOIN NOW</span> TO GET IN SHAPE
-          </Header>
-          <p className="my-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, autem. Veniam libero asperiores reiciendis vitae voluptatibus alias assumenda dolore eligendi!
-          </p>
+  <span className="text-primary-500">JOIN NOW</span> TO GET IN SHAPE
+</Header>
+<p className="my-5">
+  Achieve your fitness goals with BodyFix. We provide a motivating environment, expert trainers, and diverse classes to help you get fit and stay fit. 
+  
+  Join our community today and take the first step toward a healthier you!
+</p>
+
         </motion.div>
 
         {/* FORM AND IMAGE */}
