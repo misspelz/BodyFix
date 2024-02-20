@@ -33,10 +33,10 @@ const Navbar = ({ setSelectedPage, selectedPage, isTopOfPage }: Props) => {
           <div
             className={`${flexBetween} w-full gap-20`}
           >
-            {/* LEFT SIDE */}
+            {/* LEFT */}
             <Text >BodyFix</Text>
 
-            {/* RIGHT SIDE */}
+            {/* RIGHT */}
             {isAboveMediumScreens ? (
               <div
                 className={`${flexBetween} w-full`}
